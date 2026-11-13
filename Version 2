@@ -1,3 +1,4 @@
+#Inputs
 from datetime import datetime
 
 event_title = input("Enter event title: ")
@@ -6,6 +7,7 @@ month = int(input("Enter month: "))
 day = int(input("Enter day: "))
 event_date = datetime(year, month, day)
 
+#Outputs
 print("")
 
 print("Formatted Output: ")
